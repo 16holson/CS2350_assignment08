@@ -3,5 +3,67 @@
 * {
   box-sizing: border-box;
 }
+body
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  margin-bottom: 5%;
+}
+.hidden
+{
+  display: none;
+}
+main
+{
+  width: 85%;
+  margin: 0 auto;
+}
+.pictures
+{
+  display: grid;
+  float: right;
+  grid-template-columns: repeat(3, 1fr);
+  
+  grid-gap: 10px;
+  
+}
+.pictures .thumbnail
+{
+  margin: 5px;
+  
+  
+}
+.pictures .thumbnail img
+{
+  width: 100%;
+  height: 100%;
 
-/* TODO */
+}
+.featured
+{
+  float: left;
+  width: 25%;
+  
+}
+.item img
+{
+  width: 100%;
+  height: auto;
+}
+.item
+{
+  
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.caption
+{
+  display: block;
+}
